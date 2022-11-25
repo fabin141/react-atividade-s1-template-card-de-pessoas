@@ -1,0 +1,35 @@
+.App {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+.App div {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 80px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  padding-top: 15px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 8px;
+  
+}
+.Dev {
+  font-size: 18px;
+  font-weight: 800;
+}
+.App span:nth-child(2) {
+  font-weight: 600;
+  font-size: 14px;
+}
+.App span:nth-child(3) {
+  font-weight: 400;
+  font-size: 12px;
+}
+* {
+  list-style: none;
+}
